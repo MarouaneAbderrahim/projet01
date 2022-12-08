@@ -252,7 +252,7 @@ app.post('/deconnexion', (request, response, next) => {
 });
 
 // Démarrer le serveur
-if(process.env.NODE_env ==='production')
+if(process.env.NODE_ENV ==='production')
 {
 app.listen(process.env.PORT);
 console.log(
